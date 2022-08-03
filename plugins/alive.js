@@ -54,7 +54,7 @@ Module({
         id: 'support'+myid
     }
 }]
-var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
+var menu = `╭═══〘 ${BOT_INFO.split(";")[1]} 〙═══⊷❍
 ┃✩╭──────────────
 ┃✩│
 ┃✩│ Owner : ${BOT_INFO.split(";")[1]}
