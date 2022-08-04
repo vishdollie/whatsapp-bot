@@ -24,10 +24,10 @@ const {
 let w = MODE == 'public' ? false : true
 Module({
   pattern: 'menu',
-  fromMe: w,
+  fromMe: ,
   desc: 'Is bot alive?'
 }, (async (message, match) => {
-  var myid = message.client.user.id.split(":")[0]
+  var myid = message.user.id.split(":")[0]
   var buttons = [{
     urlButton: {
         displayText: 'Github',
