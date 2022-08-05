@@ -27,7 +27,7 @@ Module({
   fromMe: ,
   desc: 'Is bot alive?'
 }, (async (message, match) => {
-  var myid = message.user.id.split(":")[0]
+  var myid = message.user.split(":")[0]
   var buttons = [{
     urlButton: {
         displayText: 'Github',
